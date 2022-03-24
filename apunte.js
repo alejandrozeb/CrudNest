@@ -24,5 +24,17 @@ ayuda a usea el mismo standar
 ----typescript-------
 uso de tipado en js
 revisar repo de ts
+----controladores----
+se encargan de los request
+manipulan validan los request
+usamos protocolos http
+get put post delete
+
+los decoradores indican que comportamiento va a tener determinanda clase
+
+@decorator
+@get('new endpoint')
+
+npm run start:dev en nest conc ada cambia refresaca el server(ndemon)
 
 */
