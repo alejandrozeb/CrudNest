@@ -17,6 +17,8 @@ npm --help
 nest new <<name>>
 cd <<name>>
 npm run start
-
-
+se inicializa en el puerto 3000
+----configuracion basica----------
+.editorconfig
+ayuda a usea el mismo standar
 */
