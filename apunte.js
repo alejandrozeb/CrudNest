@@ -36,5 +36,9 @@ los decoradores indican que comportamiento va a tener determinanda clase
 @get('new endpoint')
 
 npm run start:dev en nest conc ada cambia refresaca el server(ndemon)
-
+---rutas___________
+en el decorador indicamos la ruta y el metodo http
+example
+@Get('nuevo')
+@Post('data')
 */
