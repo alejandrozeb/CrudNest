@@ -1,12 +1,12 @@
 /* eslint-disable prettier/prettier */
 /* controller -> service-> data access
-                Datamodel 
-----comandos-------------               
+                Datamodel
+----comandos-------------
 nest --version
 nest --help
 extencios vs----
 eslinq
-prettier 
+prettier
 editorconfig
 ----instalcion----
 npm i -g @nestjs/cli
@@ -21,4 +21,8 @@ se inicializa en el puerto 3000
 ----configuracion basica----------
 .editorconfig
 ayuda a usea el mismo standar
+----typescript-------
+uso de tipado en js
+revisar repo de ts
+
 */
