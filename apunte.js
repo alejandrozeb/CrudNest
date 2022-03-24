@@ -41,4 +41,21 @@ en el decorador indicamos la ruta y el metodo http
 example
 @Get('nuevo')
 @Post('data')
+
+resuelve los / en rutas
+
+recibir parametros
+
+usa plurales para los endpoints
+/tasks/{id}
+/people/{id}
+/user/{id}/tasks
+
+@get(':id')
+...(@param('id) id:string)
+
+
+
+
+
 */
