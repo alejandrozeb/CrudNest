@@ -60,4 +60,25 @@ limit pagination
 
 las rutas dinamicas deben ir primero y las dinamicas o con parametros segundas
 
+-----Single responsability-----------------------
+principio de unica responsabilidad
+los metodos, endpoint, funciones, clases.
+CLI de nest para crear controlladores
+
+se puede crear un monton de cosas como controlladores, filter, clases, custom decorator.
+
+nest g controller products
+
+crea un carpeta products y registra en los modulos de app
+
+podemos especificar la carpeta de uso con sus subcarpetas
+
+nest g controller controllers/products
+
+nest g controller controllers/products --flat
+no crea las subcarpetas con --flat
+
+
+
+
 */
