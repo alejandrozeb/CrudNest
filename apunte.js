@@ -85,4 +85,16 @@ Post con el decorador
 se envia por el cuerpo de request
 @body
 
+----codigos de estado--------------------
+201 entidad creada
+500 error interno
+
+mozilla http responde status code
+
+nest ya manipla los estados con los decoradores
+pero tambien podemos editarlos
+-------nest es anogstico-----
+puede usar express u otro
+
+
 */
