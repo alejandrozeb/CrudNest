@@ -96,5 +96,14 @@ pero tambien podemos editarlos
 -------nest es anogstico-----
 puede usar express u otro
 
+-----servicios-----------------
+servicis se conectan con dataaccess o data model
+@injectable
+inyeccion de dependencias a los controladores
+nest g s services/product --flag
+
+se crea los servicios
+y se añade a providers
+
 
 */
