@@ -54,8 +54,10 @@ usa plurales para los endpoints
 @get(':id')
 ...(@param('id) id:string)
 
+query
+limit pagination
 
 
-
+las rutas dinamicas deben ir primero y las dinamicas o con parametros segundas
 
 */

@@ -1,4 +1,4 @@
-import { Controller, Get, Param } from '@nestjs/common';
+import { Controller, Get, Param, Query } from '@nestjs/common';
 import { AppService } from './app.service';
 
 @Controller()
@@ -20,7 +20,10 @@ export class AppController {
   hello() {
     return 'con /sas/';
   }
-
+  @Get('products/filter')
+  getProductFilter() {
+    return `yo soy un filter`;
+  }
   @Get('products/:productId')
   getProduct(@Param() params: any) {
     return `product ${params.productId}`;
@@ -34,5 +37,10 @@ export class AppController {
   @Get('categories/:id/products/:productId')
   getCategory(@Param('id') id: number, @Param('productId') productId: string) {
     return `product ${productId} category ${id}`;
+  }
+
+  @Get('products')
+  getProducts(@Query('limit') limit: number, @Query('offset') offset: number) {
+    return `products limit:${limit} offset:${offset}`;
   }
 }
