@@ -20,27 +20,4 @@ export class AppController {
   hello() {
     return 'con /sas/';
   }
-  @Get('products/filter')
-  getProductFilter() {
-    return `yo soy un filter`;
-  }
-  @Get('products/:productId')
-  getProduct(@Param() params: any) {
-    return `product ${params.productId}`;
-  }
-
-  @Get('products2/:productId')
-  getProduct2(@Param('productId') productId: string) {
-    return `product ${productId}`;
-  }
-
-  @Get('categories/:id/products/:productId')
-  getCategory(@Param('id') id: number, @Param('productId') productId: string) {
-    return `product ${productId} category ${id}`;
-  }
-
-  @Get('products')
-  getProducts(@Query('limit') limit: number, @Query('offset') offset: number) {
-    return `products limit:${limit} offset:${offset}`;
-  }
 }

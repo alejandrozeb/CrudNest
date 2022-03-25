@@ -78,6 +78,7 @@ nest g controller controllers/products
 nest g controller controllers/products --flat
 no crea las subcarpetas con --flat
 
+cualquier endpoint en se llama con el nombre del controller.
 
 
 
