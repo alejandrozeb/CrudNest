@@ -80,6 +80,9 @@ no crea las subcarpetas con --flat
 
 cualquier endpoint en se llama con el nombre del controller.
 
-
+----metodos en nest------
+Post con el decorador
+se envia por el cuerpo de request
+@body
 
 */
