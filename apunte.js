@@ -104,6 +104,12 @@ nest g s services/product --flag
 
 se crea los servicios
 y se añade a providers
+-----pipes----------
+transformar y validar informacion
+la salida de una pipe puede ser la entrda de otra
+los params siempre llegan como strings
+
+
 
 
 */
