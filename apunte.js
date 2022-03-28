@@ -112,6 +112,15 @@ los params siempre llegan como strings
 custom pipe
 nest g pipe pipes/parse-int
 
+-------------dto-------------
+entidad vs dto
+en algunas ocaciones se necesita añadir atributos a las entidades que no estan en la base de datos.
+ las entidades son los modelos de datos de la base de datos
+los dtos son los modelos de datos que se usan para la aplicacion
+
+los dtos son una capa transversal que pude ser usada en controladores y servicios.
+
+las entidades se usan mas en la capa de datos repositorios o consultas
 
 */
 
