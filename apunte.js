@@ -109,7 +109,8 @@ transformar y validar informacion
 la salida de una pipe puede ser la entrda de otra
 los params siempre llegan como strings
 
-
+custom pipe
+nest g pipe pipes/parse-int
 
 
 */
